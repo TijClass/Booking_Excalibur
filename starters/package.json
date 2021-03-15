@@ -1,0 +1,30 @@
+{
+  "name": "phoenix",
+  "version": "1.0.0",
+  "description": "* salah eddine bendyab\r * jadwa55\r * Med-dahreddine\r * Saraediani\r * SafaeQ",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/tailwind.css -o public/asset/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TijClass/phoenix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TijClass/phoenix/issues"
+  },
+  "homepage": "https://github.com/TijClass/phoenix#readme"
+}
