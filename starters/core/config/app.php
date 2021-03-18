@@ -5,6 +5,6 @@ return [
         'host'     => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'test',
+        'database' => 'booking',
     ]
 ];
