@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/main.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="asset/css/style.css">
 
     <title>LASS1 &mdash; First-app</title>
 </head>
@@ -71,22 +71,22 @@
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start story-------------------------------------------------------------------------------------------->
 
+    <section class="story">
+        <div class="story__pictures">
 
-    <div class="story__pictures">
+            
 
-        Content
-
-      </div>
-
-
+        </div>
 
 
-      
-      <div class="story__content">
 
-        content
-         </div>
 
+        
+        <div class="story__content">
+
+            
+        </div>
+    </section>
 
 
 <!--------------------------------------------------------------------------------------------------------------------------------------
@@ -117,9 +117,28 @@
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start gallery------------------------------------------------------------------------------------------>
 
-           <section class="gallery">
-            content
-           </section>
+    <section class="galleries">
+        <div class="gallery">
+            <div class="gallery1">
+                <img src="asset/img/stephan.jpg "style="width:100%">
+                <img src=" asset/img/fran.jpg" style="width:100%">
+                <img src="asset/img/nuit.jpg" style="width:100%">
+            </div>
+            <div class="gallery1">
+                <img src=" asset/img/tholaal.jpg"style="width:100%">
+            <img src="asset/img/scott.jpg "style="width:100%">
+                <img src="asset/img/travel.jpg"style="width:100%">
+            </div>
+            <div class="gallery1">
+                <img src="asset/img/roberto.jpg "style="width:100%">
+                <img src="asset/img/naomi.jpg "style="width:100%">
+            </div>
+            <div class="gallery1">
+                <img src="asset/img/anam.jpg "style="width:100%">
+                <img src="asset/img/john.jpg "style="width:100%">
+            </div>
+            </div>
+    </section>
 
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------end gallery-------------------------------------------------------------------------------------------->
