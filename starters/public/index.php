@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/main.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/style.css">
 
-    <title>LASS1 &mdash; First-app</title>
+    <title>Booking website &mdash; First-app</title>
 </head>
 <body>
 
@@ -128,7 +128,7 @@
   <div class="container max-w-4xl mx-auto text-center flex flex-wrap items-start md:flex-no-wrap" style="margin: -200px auto 0;" >
  
      
-      <div class="my-2 w-full md:w-1/ flex flex-col items-center justify-center px-4">
+      <div class="my-2 w-full md:w-1/4 flex flex-col items-center justify-center px-4">
         <img src=".\asset\img\2164465d5b2f11c28483baf8234b7de3.png" class="w-full h-64 object-cover mb-6" />
         <button class=" font-bold text-white bg-opacity-50 bg-yellow-400 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Celine</button>
       </div>
@@ -138,7 +138,7 @@
         <button class="font-bold text-white bg-yellow-400 bg-opacity-50 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Tijani</button>
        </div>
       
-      <div class="my-2 w-full md:w-1/ flex flex-col items-center justify-center px-4">
+      <div class="my-2 w-full md:w-1/4 flex flex-col items-center justify-center px-4">
         <img src=".\asset\img\head-shot-modeling-portfolio-don-monteaux-photography-001.png"  class="w-full h-64 object-cover mb-6" />
         <button class="font-bold text-white bg-yellow-400 bg-opacity-50 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Angela</button>
       </div>
@@ -152,7 +152,7 @@
    
   <!-- /home content -->
 
-  
+
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start features----------------------------------------------------------------------------------------->
 
