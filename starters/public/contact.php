@@ -11,7 +11,7 @@ if(isset($_POST)){
     if($name != ""  && $email != ""&& $group != ""  ){
         $sql = "INSERT INTO contact_agents (`nom_complet`,`email`,`genre`) VALUES ('".$name."','".$email."','".$group."')";
         if (mysqli_query($connect, $sql)) {
-            echo mysqli_insert_id($connect);
+            header('location: contact.html');
             
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($connect);
