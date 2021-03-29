@@ -230,23 +230,53 @@
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start story-------------------------------------------------------------------------------------------->
 
-    <section class="story">
+<section class="story">
         <div class="story__pictures">
-
-            
-
+            <!-- <div class="img_story_pictures">  -->
+                <div class="for_img1_story_pictures">
+                    <img src="asset/img/sph.jpg" class="img1_story_pictures" style="width:94%" >
+                </div>
+                <div class="for_img2_story_pictures">
+                    <img src="asset/img/heft.jpg" class="img2_story_pictures" style="width:94%"> 
+                </div>
+            <!-- </div> -->
         </div>
-
-
-
-
-        
         <div class="story__content">
+            <div>
+            <h3 class="title_story_content"> STORY OF CLIENTS </h3>
+            <h5 class="min_title_story_content">Client Heureux</h5>
+            <p class="paragraph_story_content"> "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages," Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." </p>
+            </div>
+            <div class="for_btn_story_content">
+                <input class="btn_story_content" name="book_with_me" type="submit" value="BOOK WITH ME" id="btn_story_content"></input>  
+            </div>  
+            <!-- <button id="myBtn">Open Modal</button> -->
 
-            
         </div>
-    </section>
 
+    </section>
+     
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content"> 
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="asset/img/alexander.jpg" alt="" style="width:100%" class="img1_story_content">
+                    <img src="asset/img/khan.jpg" alt="" style="width:100%" class="img2_story_content">
+                </div>
+                <div class="modal-text">
+                    <span class="close"></span>
+                    <h1 class="title_modal">NE TARD PAS</h1>
+                    <h3 class="min_title_modal">lisez les termes avant choisir</h3>
+                    <p class="paragraph1_modal">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"</p>
+                    <p class="paragraph2_modal">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"</p>
+                </div>
+            </div>
+        </div>
+    </div>   
 
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------end story---------------------------------------------------------------------------------------------->
