@@ -3,7 +3,12 @@
 *::before {
   margin: 0;
   padding: 0;
+/* <<<<<<< FinishStoryGallery */
+  box-sizing: inherit;
+}
+=======
   box-sizing: inherit; }
+/* >>>>>>> premerge */
 
 /* <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start header-------------------------------------------------------------------------------------------> */
@@ -40,24 +45,27 @@ background-color: #44a7fc;}
 
 
 
-  div:nth-child(3) > img{
+  .agent1{
   height: 18rem;
   margin-bottom: -2.5rem;
   padding-left: 0rem;
   padding-right: 0rem;
 }
-  div:nth-child(2) > img{
+  .agent2{
   height: 18rem;
   margin-bottom: -2.5rem;
   padding-left: 0rem;
   padding-right: 0rem;
 }
-  div:nth-child(1) > img{
+  .agent3{
   height: 18rem;
   margin-bottom: -2.5rem;
   padding-left: 0rem;
   padding-right: 0rem;
 }
+
+
+
   /* .p-4{
   padding: 3rem;
 }
@@ -700,8 +708,6 @@ body {
 }
 
 .gallery {
-  /* background-color: blue; */
-  /* height: max-content; */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap; 
@@ -709,7 +715,6 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .gallery1 {
   height: auto ;
   -ms-flex: 25%; 
@@ -723,70 +728,185 @@ body {
   vertical-align: middle;
   width: 100%;
   /* height: 66%; */
+  /* animation: myanimation 2s ease-in; */
 }
-body > section > div > div:nth-child(1) > img:nth-child(1){
+
+body > section.galleries > div > div:nth-child(1) > img.gal1{
+  height: 37%;
+  transition: transform .2s;
+}
+body > section.galleries > div > div:nth-child(1) > img.gal1:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+body > section.galleries > div > div:nth-child(1) > img.gal1{
+  width: 100%;
+  /* height: 37%; */
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in;  */
+/* @keyframes myanimation {
+  0% {width:100vh; height:100vh;}  */
+}
+
+body > section.galleries > div > div:nth-child(1) > img.gal2{
   width: 100%;
   height: 37%;
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
 }
-body > section > div > div:nth-child(1) > img:nth-child(2){
-  width: 100%;
-  height: 37%;
+body > section.galleries > div > div:nth-child(1) > img.gal2:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
 }
-body > section > div > div:nth-child(1) > img:nth-child(3){
+
+body > section.galleries > div > div:nth-child(1) > img.gal3{
   width: 100%;
   height: 24%;
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
 }
-body > section > div > div:nth-child(2) > img:nth-child(1){
+body > section.galleries > div > div:nth-child(1) > img.gal3:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+body > section.galleries > div > div:nth-child(2) > img.gal4{
+  height: 31%;
+}
+body > section.galleries > div > div:nth-child(2) > img.gal4{
   width: 100%;
-  height: 31%;}
-body > section > div > div:nth-child(2) > img:nth-child(2){
+  /* height: 31%; */
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
+}
+body > section.galleries > div > div:nth-child(2) > img.gal4:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+body > section.galleries > div > div:nth-child(2) > img.gal5{
   width: 100%;    
   height: 28%;
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
+
 }
-body > section > div > div:nth-child(2) > img:nth-child(3){
+body > section.galleries > div > div:nth-child(2) > img.gal5:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+body > section.galleries > div > div:nth-child(2) > img.gal6{
       width: 100%;
       height: 39%;
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 2s ease-in; */
+      transition: transform .2s;
 }
-body > section > div > div:nth-child(3) > img:nth-child(1){
+body > section.galleries > div > div:nth-child(2) > img.gal6:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+body > section.galleries > div > div:nth-child(3) > img.gal7{
       width: 100%;
       height: 69%;
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 10s infinite; */
+      transition: transform .2s;
 }  
-body > section > div > div:nth-child(3) > img:nth-child(2){
+body > section.galleries > div > div:nth-child(3) > img.gal7:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+body > section.galleries > div > div:nth-child(3) > img.gal8{
       width: 100%;
       height: 30%;
-}  
-body > section > div > div:nth-child(4) > img:nth-child(1){
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 2s ease-in; */
+      transition: transform .2s;
+} 
+body > section.galleries > div > div:nth-child(3) > img.gal8:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+body > section.galleries > div > div:nth-child(4) > img.gal9{
       width: 100%;
       height: 38%;
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 2s ease-in; */
+      transition: transform .2s;
 }
-body > section > div > div:nth-child(4) > img:nth-child(2){
+body > section.galleries > div > div:nth-child(4) > img.gal9:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+body > section.galleries > div > div:nth-child(4) > img.gal10{
       width: 100%;
       height: 61%;
+      /* cursor: pointer; */
+        visibility: visible;
+        /* animation: myanimation 10s infinite; */
+        transition: transform .2s;
 }
-  /* body > section > div > div:nth-child(4) > img:nth-child(2){
-      width: 100%;
-  height: 57%;
-  } */
+body > section.galleries > div > div:nth-child(4) > img.gal10:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  
-  .gallery1 {
-    /* height: 76%; */
 
+  .gallery1 {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
+  .gal4{
+    margin-top: 10px;
+  }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .gallery1 {
-  /* height: 76%; */
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+}
+@media screen and (max-width:350px){
+  body > section.galleries > div > div:nth-child(2) > img.gal4{
+    margin-top: 16px;
+  }
+  body > section.galleries > div > div:nth-child(3) > img.gal7{
+    margin-top: 27px;
+  }
+  body > section.galleries > div > div:nth-child(4) > img.gal9{
+    margin-top: 38px;
   }
 }
 

@@ -176,17 +176,17 @@
  
      
       <div class="my-2 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-        <img src=".\asset\img\2164465d5b2f11c28483baf8234b7de3.png" class="w-full h-64 object-cover mb-6" />
+        <img src=".\asset\img\2164465d5b2f11c28483baf8234b7de3.png" class="w-full h-64 object-cover mb-6 agent1" />
         <button class=" font-bold text-white bg-opacity-50 bg-yellow-400 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Celine</button>
       </div>
       
       <div class="my-2 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-        <img src=".\asset\img\Nathaniel+Dean+(500px).png" class="w-full h-64 object-cover mb-6" />
+        <img src=".\asset\img\Nathaniel+Dean+(500px).png" class="w-full h-64 object-cover mb-6 agent2" />
         <button class="font-bold text-white bg-yellow-400 bg-opacity-50 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Tijani</button>
        </div>
       
       <div class="my-2 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-        <img src=".\asset\img\head-shot-modeling-portfolio-don-monteaux-photography-001.png"  class="w-full h-64 object-cover mb-6" />
+        <img src=".\asset\img\head-shot-modeling-portfolio-don-monteaux-photography-001.png "  class="w-full h-64 object-cover mb-6 agent3" />
         <button class="font-bold text-white bg-yellow-400 bg-opacity-50 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Angela</button>
       </div>
 
@@ -309,22 +309,22 @@
     <section class="galleries">
         <div class="gallery">
             <div class="gallery1">
-                <img src="asset/img/stephan.jpg "style="width:100%">
-                <img src=" asset/img/fran.jpg" style="width:100%">
-                <img src="asset/img/nuit.jpg" style="width:100%">
+                <img src="asset/img/stephan.jpg "style="width:100%" class="gal1">
+                <img src=" asset/img/fran.jpg" style="width:100%" class="gal2">
+                <img src="asset/img/nuit.jpg" style="width:100%" class="gal3">
             </div>
             <div class="gallery1">
-                <img src=" asset/img/tholaal.jpg"style="width:100%">
-            <img src="asset/img/scott.jpg "style="width:100%">
-                <img src="asset/img/travel.jpg"style="width:100%">
+                <img src=" asset/img/tholaal.jpg"style="width:100%" class="gal4">
+            <img src="asset/img/scott.jpg "style="width:100%" class="gal5">
+                <img src="asset/img/travel.jpg"style="width:100%" class="gal6">
             </div>
             <div class="gallery1">
-                <img src="asset/img/roberto.jpg "style="width:100%">
-                <img src="asset/img/naomi.jpg "style="width:100%">
+                <img src="asset/img/roberto.jpg "style="width:100%" class="gal7">
+                <img src="asset/img/naomi.jpg "style="width:100%" class="gal8">
             </div>
             <div class="gallery1">
-                <img src="asset/img/anam.jpg "style="width:100%">
-                <img src="asset/img/john.jpg "style="width:100%">
+                <img src="asset/img/anam.jpg "style="width:100%" class="gal9">
+                <img src="asset/img/john.jpg "style="width:100%" class="gal10">
             </div>
             </div>
     </section>
@@ -350,6 +350,6 @@
 
 
 
-
+  <script src="asset/js/main.js"></script>
 </body>
 </html>
