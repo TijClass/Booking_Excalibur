@@ -3,7 +3,8 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 /* <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start navbar------------------------------------------------------------------------------------------->*/
@@ -42,8 +43,544 @@
 /* <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start story--------------------------------------------------------------------------------------------> */
 .story{
-  
+  height: 600px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 55%;
 }
+
+body > section.row.story{
+  margin: 0;
+}
+body > section.row.story{
+  height: 560px;
+}
+
+.story1{
+  display: none;
+}
+
+.story .div{
+  min-height: 500px;
+  height: 570px;
+  padding: 10px;
+}
+
+
+
+
+
+/******************************test**************************/
+body > section.story > div.story__pictures{
+  margin-right: 0;
+}
+body > section.story > div.story__pictures > div{
+  margin-top: 338px;
+  margin-right: 36px;
+}
+body > section.story > div.story__pictures > div > div.for_img1_story_pictures{
+  margin-left: 53px;
+  margin-top: 0px;
+}
+/******************************test**************************/
+
+
+
+
+
+
+/* <!-------------------------------------------------------------------
+-----------------------------start story_pictures-------------------> */
+.story__pictures{
+  width: 100%;
+  float:left; 
+  margin-right:0px;
+  padding-right: 0;
+  padding: 0;
+  min-height:570px;
+  height: 540px;
+}
+
+body > section.row.story > div.col-sm-6.story__pictures{
+  padding: 0;
+}
+
+body > section.row.story > div.col-sm-6.story__pictures > div{
+  height: 540px;
+}
+
+.for_img1_story_pictures{
+  background-color: white;
+  min-height: 460px;
+  height: 460px;
+  border: 1px solid #000000;
+  border-radius: 10%;
+  -ms-transform: rotate(20deg); 
+  transform: rotate(-5deg); 
+  width: 30%;
+  position: absolute;
+  box-shadow: 3px 3px 4px #000000;
+}
+body > section.story > div.story__pictures > div.for_img1_story_pictures{
+  margin-top: 21px;
+  padding-top: 0;
+  margin-left: 65px;
+}
+
+body > section.story > div.story__pictures > div.for_img1_story_pictures{
+  margin-top: 50px;
+  margin-left: 77px;
+}
+
+body > section.story > div.story__pictures > div > div > img{
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.img1_story_pictures{
+  border: 1px solid #000000;
+  height: 440px;
+  margin-top: 10px ;
+  margin-left: 3%;
+  border-radius: 10%;
+}
+
+.for_img2_story_pictures{
+  background-color: white;
+  height: 280px;
+  border: 1px solid #000000;
+  border-radius: 10%;
+  -ms-transform: rotate(30deg); 
+  transform: rotate(-16deg); 
+  margin-left: 32%;
+  margin-bottom: 30px;
+  position: relative;
+  top: 150px;
+  left: 70px;
+  box-shadow: 3px 3px 4px #000000;
+}
+
+body > section.story > div.story__pictures > div.for_img2_story_pictures{
+  margin-right: 60px;
+}
+
+body > section.story > div.story__pictures > div.for_img2_story_pictures{
+  margin-top: 90px;
+}
+
+.img2_story_pictures{
+  border: 1px solid #000000;
+  width: 50%;
+  height: 257px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8%;
+  margin-left: 3%;
+}
+/* <!-------------------------------------------------------------------
+-----------------------------end story_pictures-------------------> */
+
+
+/* <!-------------------------------------------------------------------
+-----------------------------start story_content-------------------> */
+body > section.story > div.story__content{
+  height: 570px;
+  min-height: 500px;
+}
+
+.story__content{
+  float:right; 
+  width: 100%;
+  min-height:500px;
+  height: 540px;
+  background-color: #1A2B48;
+}
+
+body > section.row.story > div.col-sm-6.story__content{
+  height: 540px;
+}
+
+.title_story_content{
+  text-align: center;
+  margin-top: 50px;
+  color: #FFC107;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.min_title_story_content{
+  color:#FFC107 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px;
+  transform: translateX(4%);
+}
+
+.paragraph_story_content{
+  color: white;
+  margin-top: 50px;
+  width: 60%;
+  font-size: 100%;
+  transform: translateX(6%); 
+  text-align: center;
+  width:90% ;
+  height: auto;
+  text-align: justify;
+}
+
+body > section.story > div.story__content > div:nth-child(1) > p{
+  border-radius: 50%;
+}
+
+.for_btn_story_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_story_content{
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  margin-top: 40px;
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  font-size: 80%;
+  margin-bottom: 60px;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  background: #1b3c9d;
+  background: linear-gradient(90deg, #5590ee, #5191FA);
+  transition: all 0.3s ease-in-out 0s;
+  position: relative;
+}
+
+.btn_story_content:hover, .button:focus {
+color: #313133;
+transform: translateY(-6px);
+border-radius: 15px;
+}
+
+@keyframes ring {
+0% {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+100% {
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .story{
+    display: block;
+    overflow: hidden;
+  }
+  .story__pictures{
+    display: none;
+    width:94%;
+  }
+
+  .story1{
+    display: block;
+    float: none;
+    width: 96%;
+    margin-left: 2%;
+  }
+
+  body > section.row.story1{
+    margin: 0;
+  }
+  body > section.story > div.story__content > div:nth-child(1){
+    height: auto;
+  }
+  .story__content{
+    width: 100%;
+    float: right;
+  }
+  body > section.story > div.story__content{
+    height: auto;
+  }
+  body > section.story{
+    height: auto;
+  }
+  .story__content1{
+    overflow:hidden;
+    min-height:500px;
+    background-color: #1A2B48;
+  }
+
+  .title_story_content1{
+    text-align: center;
+    margin-top: 30px;
+    color: #FFC107;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .min_title_story_content1{
+    color:#FFC107 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+  }
+
+  .paragraph_story_content1{
+    color: white;
+    margin-top: 30px;
+    width:100% ;
+    height: auto;
+    text-align: justify;
+  }
+
+.paragraph1_content{
+  color: white;
+  margin-top:6%;
+  max-width: 90%;
+  max-height: 50%;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  text-align: justify;
+}
+body > section.story > div.story__content > div.for_btn_story_content{
+
+}
+} 
+/* <!-------------------------------------------------------------------
+-----------------------------end story_content-------------------> */
+
+
+/* <!-------------------------------------------------------------------
+-----------------------------start modal-------------------> */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+@media screen and (max-width:800px){
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  .modal-body {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  
+  }
+  #myModal > div{
+    height: auto;
+  }
+  #myModal > div > div > div.modal-text > h1{
+    margin-top: 0;
+  }
+  /* Modal Content */
+.modal-content {
+  height: auto;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  border-radius: 3%;
+
+}
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  .modal-body {
+    display: block;
+    height: auto;
+  }
+
+  #myModal > div > div{
+    display: block;
+  }
+
+  .modal_image{
+    width: 100%;
+  }
+
+  .modal_text{
+    width: 100%;
+  }
+
+  .img1_story_content{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    width: 100%;
+  }
+
+  #myModal > div > div > div.modal-image > img.img2_story_content{
+    display: none;
+  }
+
+  .title_modal{
+    margin-left: 8%;
+  }
+
+  .min_title_modal{
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+
+  .paragraph1_modal{
+    margin-top:2%;
+    margin-bottom: 2%;
+    max-width: 90%;
+    max-height: 20%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    text-align: justify;
+  }
+  #myModal > div > div > div.modal-text > p.paragraph1_modal{
+    font-size: 100%;
+  }
+
+  .paragraph2_modal{
+    margin-bottom: 2%;
+    max-width: 90%;
+    max-height: 20%;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    text-align: justify;
+  }
+  #myModal > div > div > div.modal-text > p.paragraph1_modal{
+    margin-top: 2%;
+  }
+}
+
+/* Modal Content */
+.modal-content {
+  height: 81vh;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  border-radius: 3%;
+
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.modal_image{
+  height: max-content;
+  width: 45%;
+  height:81vh ;
+}
+
+.modal_text{
+  height: max-content;
+  width: 60%;
+  height: 81vh;
+}
+
+.img1_story_content{
+  border-top-left-radius: 5%;
+  height: 40vh;
+}
+
+.img2_story_content{
+  border-bottom-left-radius: 5%;
+  height: 40.5vh;
+}
+
+.title_modal{
+  margin-top: 8%;
+  margin-left: 8%;
+}
+
+.min_title_modal{
+  margin-top: 2%;
+  margin-left: 8%;
+}
+
+.paragraph1_modal{
+  margin-top:6%;
+  max-width: 90%;
+  max-height: 50%;
+  font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  text-align: justify;
+}
+
+.paragraph2_modal{
+  margin-top: 2%;
+  max-width: 90%;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  text-align: justify;
+}
+/* <!-------------------------------------------------------------------
+-----------------------------end modal-------------------> */
+
 
 /* <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------end story----------------------------------------------------------------------------------------------> */
@@ -73,12 +610,8 @@ body {
   margin: 0;
   font-family: Arial;
 }
-.galleries{
-  /* height: max-content; */
-}
+
 .gallery {
-  /* background-color: blue; */
-  /* height: max-content; */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap; 
@@ -86,7 +619,6 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .gallery1 {
   height: auto ;
   -ms-flex: 25%; 
@@ -100,69 +632,168 @@ body {
   vertical-align: middle;
   width: 100%;
   /* height: 66%; */
+  /* animation: myanimation 2s ease-in; */
 }
+
+body > section.galleries > div > div:nth-child(1) > img:nth-child(1){
+  height: 37%;
+  transition: transform .2s;
+}
+body > section.galleries > div > div:nth-child(1) > img:nth-child(1):hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 body > section > div > div:nth-child(1) > img:nth-child(1){
   width: 100%;
-  height: 37%;
+  /* height: 37%; */
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in;  */
+/* @keyframes myanimation {
+  0% {width:100vh; height:100vh;}  */
 }
+
 body > section > div > div:nth-child(1) > img:nth-child(2){
   width: 100%;
   height: 37%;
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
 }
+body > section > div > div:nth-child(1) > img:nth-child(2):hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 body > section > div > div:nth-child(1) > img:nth-child(3){
   width: 100%;
   height: 24%;
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
+}
+body > section > div > div:nth-child(1) > img:nth-child(3):hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+body > section.galleries > div > div:nth-child(2) > img:nth-child(1){
+  height: 31%;
 }
 body > section > div > div:nth-child(2) > img:nth-child(1){
   width: 100%;
-  height: 31%;}
+  /* height: 31%; */
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
+}
+body > section.galleries > div > div:nth-child(2) > img:nth-child(1):hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 body > section > div > div:nth-child(2) > img:nth-child(2){
   width: 100%;    
   height: 28%;
+  /* cursor: pointer; */
+  visibility: visible;
+  /* animation: myanimation 2s ease-in; */
+  transition: transform .2s;
+
+}
+body > section > div > div:nth-child(2) > img:nth-child(2):hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
 }
 body > section > div > div:nth-child(2) > img:nth-child(3){
       width: 100%;
       height: 39%;
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 2s ease-in; */
+      transition: transform .2s;
 }
+body > section > div > div:nth-child(2) > img:nth-child(3):hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 body > section > div > div:nth-child(3) > img:nth-child(1){
       width: 100%;
       height: 69%;
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 10s infinite; */
+      transition: transform .2s;
 }  
+body > section > div > div:nth-child(3) > img:nth-child(1):hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 body > section > div > div:nth-child(3) > img:nth-child(2){
       width: 100%;
       height: 30%;
-}  
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 2s ease-in; */
+      transition: transform .2s;
+} 
+body > section > div > div:nth-child(3) > img:nth-child(2):hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
 body > section > div > div:nth-child(4) > img:nth-child(1){
       width: 100%;
       height: 38%;
+      /* cursor: pointer; */
+      visibility: visible;
+      /* animation: myanimation 2s ease-in; */
+      transition: transform .2s;
 }
+body > section > div > div:nth-child(4) > img:nth-child(1):hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
 body > section > div > div:nth-child(4) > img:nth-child(2){
       width: 100%;
       height: 61%;
+      /* cursor: pointer; */
+        visibility: visible;
+        /* animation: myanimation 10s infinite; */
+        transition: transform .2s;
 }
-  /* body > section > div > div:nth-child(4) > img:nth-child(2){
-      width: 100%;
-  height: 57%;
-  } */
+body > section > div > div:nth-child(4) > img:nth-child(2):hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .gallery{
-    
-  }
-  .gallery1 {
-    /* height: 76%; */
 
+  .gallery1 {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .gallery1 {
-  /* height: 76%; */
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
