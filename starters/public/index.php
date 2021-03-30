@@ -176,17 +176,17 @@
  
      
       <div class="my-2 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-        <img src=".\asset\img\2164465d5b2f11c28483baf8234b7de3.png" class="w-full h-64 object-cover mb-6" />
+        <img src=".\asset\img\2164465d5b2f11c28483baf8234b7de3.png" class="w-full h-64 object-cover mb-6 agent1" />
         <button class=" font-bold text-white bg-opacity-50 bg-yellow-400 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Celine</button>
       </div>
       
       <div class="my-2 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-        <img src=".\asset\img\Nathaniel+Dean+(500px).png" class="w-full h-64 object-cover mb-6" />
+        <img src=".\asset\img\Nathaniel+Dean+(500px).png" class="w-full h-64 object-cover mb-6 agent2" />
         <button class="font-bold text-white bg-yellow-400 bg-opacity-50 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Tijani</button>
        </div>
       
       <div class="my-2 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-        <img src=".\asset\img\head-shot-modeling-portfolio-don-monteaux-photography-001.png"  class="w-full h-64 object-cover mb-6" />
+        <img src=".\asset\img\head-shot-modeling-portfolio-don-monteaux-photography-001.png "  class="w-full h-64 object-cover mb-6 agent3" />
         <button class="font-bold text-white bg-yellow-400 bg-opacity-50 hover:bg-yellow-400 hover:text-black border border-solid border-grey w-1/3 lg:w-full py-2">Angela</button>
       </div>
 
@@ -230,23 +230,53 @@
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start story-------------------------------------------------------------------------------------------->
 
-    <section class="story">
+<section class="story">
         <div class="story__pictures">
-
-            
-
+            <!-- <div class="img_story_pictures">  -->
+                <div class="for_img1_story_pictures">
+                    <img src="asset/img/sph.jpg" class="img1_story_pictures" style="width:94%" >
+                </div>
+                <div class="for_img2_story_pictures">
+                    <img src="asset/img/heft.jpg" class="img2_story_pictures" style="width:94%"> 
+                </div>
+            <!-- </div> -->
         </div>
-
-
-
-
-        
         <div class="story__content">
+            <div>
+            <h3 class="title_story_content"> STORY OF CLIENTS </h3>
+            <h5 class="min_title_story_content">Client Heureux</h5>
+            <p class="paragraph_story_content"> "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages," Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." </p>
+            </div>
+            <div class="for_btn_story_content">
+                <input class="btn_story_content" name="book_with_me" type="submit" value="BOOK WITH ME" id="btn_story_content"></input>  
+            </div>  
+            <!-- <button id="myBtn">Open Modal</button> -->
 
-            
         </div>
-    </section>
 
+    </section>
+     
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content"> 
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="asset/img/alexander.jpg" alt="" style="width:100%" class="img1_story_content">
+                    <img src="asset/img/khan.jpg" alt="" style="width:100%" class="img2_story_content">
+                </div>
+                <div class="modal-text">
+                    <span class="close"></span>
+                    <h1 class="title_modal">NE TARD PAS</h1>
+                    <h3 class="min_title_modal">lisez les termes avant choisir</h3>
+                    <p class="paragraph1_modal">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"</p>
+                    <p class="paragraph2_modal">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"</p>
+                </div>
+            </div>
+        </div>
+    </div>   
 
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------end story---------------------------------------------------------------------------------------------->
@@ -279,22 +309,22 @@
     <section class="galleries">
         <div class="gallery">
             <div class="gallery1">
-                <img src="asset/img/stephan.jpg "style="width:100%">
-                <img src=" asset/img/fran.jpg" style="width:100%">
-                <img src="asset/img/nuit.jpg" style="width:100%">
+                <img src="asset/img/stephan.jpg "style="width:100%" class="gal1">
+                <img src=" asset/img/fran.jpg" style="width:100%" class="gal2">
+                <img src="asset/img/nuit.jpg" style="width:100%" class="gal3">
             </div>
             <div class="gallery1">
-                <img src=" asset/img/tholaal.jpg"style="width:100%">
-            <img src="asset/img/scott.jpg "style="width:100%">
-                <img src="asset/img/travel.jpg"style="width:100%">
+                <img src=" asset/img/tholaal.jpg"style="width:100%" class="gal4">
+            <img src="asset/img/scott.jpg "style="width:100%" class="gal5">
+                <img src="asset/img/travel.jpg"style="width:100%" class="gal6">
             </div>
             <div class="gallery1">
-                <img src="asset/img/roberto.jpg "style="width:100%">
-                <img src="asset/img/naomi.jpg "style="width:100%">
+                <img src="asset/img/roberto.jpg "style="width:100%" class="gal7">
+                <img src="asset/img/naomi.jpg "style="width:100%" class="gal8">
             </div>
             <div class="gallery1">
-                <img src="asset/img/anam.jpg "style="width:100%">
-                <img src="asset/img/john.jpg "style="width:100%">
+                <img src="asset/img/anam.jpg "style="width:100%" class="gal9">
+                <img src="asset/img/john.jpg "style="width:100%" class="gal10">
             </div>
             </div>
     </section>
@@ -320,6 +350,6 @@
 
 
 
-
+  <script src="asset/js/main.js"></script>
 </body>
 </html>
