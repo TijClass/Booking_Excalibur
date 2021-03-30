@@ -6,8 +6,8 @@
 /* <<<<<<< FinishStoryGallery */
   box-sizing: inherit;
 }
-=======
-  box-sizing: inherit; }
+
+
 /* >>>>>>> premerge */
 
 /* <!--------------------------------------------------------------------------------------------------------------------------------------
@@ -441,9 +441,6 @@ border-radius: 15px;
   margin-left: 5%;
   text-align: justify;
 }
-body > section.story > div.story__content > div.for_btn_story_content{
-
-}
 } 
 /* <!-------------------------------------------------------------------
 -----------------------------end story_content-------------------> */
@@ -698,217 +695,56 @@ body > section.story > div.story__content > div.for_btn_story_content{
 
 /* <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start gallery------------------------------------------------------------------------------------------> */
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
 
-.gallery {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap; 
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.gallery1 {
-  height: auto ;
-  -ms-flex: 25%; 
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.gallery1 img {
-  margin-top: 8px;
-  vertical-align: middle;
+.gall1{
   width: 100%;
-  /* height: 66%; */
-  /* animation: myanimation 2s ease-in; */
+  display:grid;
+  grid-template-rows: 35% 35% 28%;
+  grid-row-gap: 1%;
 }
-
-body > section.galleries > div > div:nth-child(1) > img.gal1{
-  height: 37%;
+.gall2{
+  width: 100%;
+  display:grid;
+  grid-template-rows: 30% 32% 36%;
+  grid-row-gap: 1%;
+}
+.gall3{
+  width: 100%;
+  display:grid;
+  grid-template-rows :65% 34%;
+  grid-row-gap: 1%;
+}
+.gall4{
+  width: 100%;
+  display:grid;
+  grid-template-rows: 36% 63%;
+  grid-row-gap: 1%;
+}
+.gallery{
+  max-height: 100vh;
+  height:100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1%;
+}
+.img_gallery{
+  width: 100%;
+  height: 100%;
   transition: transform .2s;
 }
-body > section.galleries > div > div:nth-child(1) > img.gal1:hover {
+.img_gallery:hover{
   -ms-transform: scale(1.5); 
   -webkit-transform: scale(1.5); 
   transform: scale(1.5); 
 }
 
-body > section.galleries > div > div:nth-child(1) > img.gal1{
-  width: 100%;
-  /* height: 37%; */
-  /* cursor: pointer; */
-  visibility: visible;
-  /* animation: myanimation 2s ease-in;  */
-/* @keyframes myanimation {
-  0% {width:100vh; height:100vh;}  */
-}
 
-body > section.galleries > div > div:nth-child(1) > img.gal2{
-  width: 100%;
-  height: 37%;
-  /* cursor: pointer; */
-  visibility: visible;
-  /* animation: myanimation 2s ease-in; */
-  transition: transform .2s;
-}
-body > section.galleries > div > div:nth-child(1) > img.gal2:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}
 
-body > section.galleries > div > div:nth-child(1) > img.gal3{
-  width: 100%;
-  height: 24%;
-  /* cursor: pointer; */
-  visibility: visible;
-  /* animation: myanimation 2s ease-in; */
-  transition: transform .2s;
-}
-body > section.galleries > div > div:nth-child(1) > img.gal3:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5); 
-}
-body > section.galleries > div > div:nth-child(2) > img.gal4{
-  height: 31%;
-}
-body > section.galleries > div > div:nth-child(2) > img.gal4{
-  width: 100%;
-  /* height: 31%; */
-  /* cursor: pointer; */
-  visibility: visible;
-  /* animation: myanimation 2s ease-in; */
-  transition: transform .2s;
-}
-body > section.galleries > div > div:nth-child(2) > img.gal4:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}
 
-body > section.galleries > div > div:nth-child(2) > img.gal5{
-  width: 100%;    
-  height: 28%;
-  /* cursor: pointer; */
-  visibility: visible;
-  /* animation: myanimation 2s ease-in; */
-  transition: transform .2s;
 
-}
-body > section.galleries > div > div:nth-child(2) > img.gal5:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}
-body > section.galleries > div > div:nth-child(2) > img.gal6{
-      width: 100%;
-      height: 39%;
-      /* cursor: pointer; */
-      visibility: visible;
-      /* animation: myanimation 2s ease-in; */
-      transition: transform .2s;
-}
-body > section.galleries > div > div:nth-child(2) > img.gal6:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}
 
-body > section.galleries > div > div:nth-child(3) > img.gal7{
-      width: 100%;
-      height: 69%;
-      /* cursor: pointer; */
-      visibility: visible;
-      /* animation: myanimation 10s infinite; */
-      transition: transform .2s;
-}  
-body > section.galleries > div > div:nth-child(3) > img.gal7:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}
 
-body > section.galleries > div > div:nth-child(3) > img.gal8{
-      width: 100%;
-      height: 30%;
-      /* cursor: pointer; */
-      visibility: visible;
-      /* animation: myanimation 2s ease-in; */
-      transition: transform .2s;
-} 
-body > section.galleries > div > div:nth-child(3) > img.gal8:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5); 
-}
-
-body > section.galleries > div > div:nth-child(4) > img.gal9{
-      width: 100%;
-      height: 38%;
-      /* cursor: pointer; */
-      visibility: visible;
-      /* animation: myanimation 2s ease-in; */
-      transition: transform .2s;
-}
-body > section.galleries > div > div:nth-child(4) > img.gal9:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}
-
-body > section.galleries > div > div:nth-child(4) > img.gal10{
-      width: 100%;
-      height: 61%;
-      /* cursor: pointer; */
-        visibility: visible;
-        /* animation: myanimation 10s infinite; */
-        transition: transform .2s;
-}
-body > section.galleries > div > div:nth-child(4) > img.gal10:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}
-
-@media screen and (max-width: 800px) {
-
-  .gallery1 {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-  .gal4{
-    margin-top: 10px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .gallery1 {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-@media screen and (max-width:350px){
-  body > section.galleries > div > div:nth-child(2) > img.gal4{
-    margin-top: 16px;
-  }
-  body > section.galleries > div > div:nth-child(3) > img.gal7{
-    margin-top: 27px;
-  }
-  body > section.galleries > div > div:nth-child(4) > img.gal9{
-    margin-top: 38px;
-  }
-}
 
 /* <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------end gallery--------------------------------------------------------------------------------------------> */
