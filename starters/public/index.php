@@ -1,3 +1,10 @@
+<?php
+    include '../public/gallery.php';
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +13,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/style.css">
-
     <title>Booking website &mdash; First-app</title>
 </head>
 <body>
@@ -306,27 +312,55 @@
 <!--------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------start gallery------------------------------------------------------------------------------------------>
 
-    <section class="galleries">
-        <div class="gallery">
-            <div class="gallery1">
-                <img src="asset/img/stephan.jpg "style="width:100%" class="gal1">
-                <img src=" asset/img/fran.jpg" style="width:100%" class="gal2">
-                <img src="asset/img/nuit.jpg" style="width:100%" class="gal3">
-            </div>
-            <div class="gallery1">
-                <img src=" asset/img/tholaal.jpg"style="width:100%" class="gal4">
-            <img src="asset/img/scott.jpg "style="width:100%" class="gal5">
-                <img src="asset/img/travel.jpg"style="width:100%" class="gal6">
-            </div>
-            <div class="gallery1">
-                <img src="asset/img/roberto.jpg "style="width:100%" class="gal7">
-                <img src="asset/img/naomi.jpg "style="width:100%" class="gal8">
-            </div>
-            <div class="gallery1">
-                <img src="asset/img/anam.jpg "style="width:100%" class="gal9">
-                <img src="asset/img/john.jpg "style="width:100%" class="gal10">
-            </div>
-            </div>
+<section id="gallery" class="gallery">
+        <div class="gall1">
+             <?php
+                $slid=1;
+                while($row_slid=mysqli_fetch_assoc($result_gallery1)){
+                    echo '
+                    <div class="slid.'.$slid.'caronsel-item">
+                        <img src="../public/asset/img/'.$row_slid['image'].'" class="img_gallery">
+                    </div>';
+                    $slid++;
+                }
+            ?> 
+        </div>
+        <div class="gall2">
+             <?php
+                $slid=1;
+                while($row_slid=mysqli_fetch_assoc($result_gallery2)){
+                    echo '
+                    <div class="slid.'.$slid.'caronsel-item">
+                        <img src="../public/asset/img/'.$row_slid['image'].'" class="img_gallery">
+                    </div>';
+                    $slid++;
+                }
+            ?> 
+        </div>
+        <div class="gall3">
+             <?php
+                $slid=1;
+                while($row_slid=mysqli_fetch_assoc($result_gallery3)){
+                    echo '
+                    <div class="slid.'.$slid.'caronsel-item">
+                        <img src="../public/asset/img/'.$row_slid['image'].'" class="img_gallery">
+                    </div>';
+                    $slid++;
+                }
+            ?> 
+        </div>
+        <div class="gall4">
+             <?php
+                $slid=1;
+                while($row_slid=mysqli_fetch_assoc($result_gallery4)){
+                    echo '
+                    <div class="slid.'.$slid.'caronsel-item">
+                        <img src="../public/asset/img/'.$row_slid['image'].'" class="img_gallery">
+                    </div>';
+                    $slid++;
+                }
+            ?> 
+        </div>
     </section>
 
 <!--------------------------------------------------------------------------------------------------------------------------------------
